@@ -9,5 +9,10 @@ fun main(){
     // read and write
     var jk = "lelaki";
     jk = "perempuan";
-
+    println(alamat)
+    println(nama)
+    println(umur)
+    println(ttl)
+    println(name)
+    println(jk)
 }
