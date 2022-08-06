@@ -1,7 +1,4 @@
 import java.util.*
-
-
-
 fun main(){
     val input = Scanner(System.`in`)
     while (true){
@@ -22,5 +19,4 @@ fun main(){
             println("input salah")
         }
     }
-
 }
