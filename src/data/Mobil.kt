@@ -1,6 +1,7 @@
 package data
 
-class Mobil(Merk :String = "Toyota", Tahun: Int) {
+class Mobil(Merk :String = "Toyota",
+            Tahun: Int) {
     init {
         println("class $Merk di buat")
     }

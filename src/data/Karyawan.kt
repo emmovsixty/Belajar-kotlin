@@ -6,7 +6,6 @@ class Karyawan {
     var age = 0
     var salary = 0
     var JmlAnak = 0
-
     init {
         println("Object Karyawan di buat")
     }
@@ -44,5 +43,6 @@ class Karyawan {
         salary = Salary
         JmlAnak = jmlAnak
     }
+
 
 }
