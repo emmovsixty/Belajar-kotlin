@@ -1,22 +1,18 @@
 package app
 
+import data.Anak
+import data.Atasan
+import data.Bawahan
 import data.Karyawan
 import java.util.*
 
 fun main() {
-    println("--- Pengumpulan Data Karyawan ---")
-    val input = Scanner(System.`in`)
-    println("masukan nama")
-    val nama = input.next()
-    println("masukan alamat")
-    val alamat = input.next()
-    println("masukan umur")
-    val umur = input.nextInt()
-    println("Jumlah anak")
-    val jmlAnak = input.nextInt()
-    val gaji = 2_000_000
-    var objek = Karyawan(nama,alamat,umur,gaji,jmlAnak)
-
-    println("nama : ${objek.nama} \nalamat : ${objek.alamat} \numur : ${objek.age}")
-    println("jumlah anak : ${objek.JmlAnak} \ngaji : ${objek.salary}")
+    var nama = Karyawan()
+    println(nama.nama)
+    var nama1 = Bawahan()
+    println(nama1.nama)
+    var nama2 = Atasan()
+    println(nama2.nama)
+    var nama3 = Anak()
+    println(nama3.nama)
 }

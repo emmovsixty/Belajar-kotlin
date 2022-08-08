@@ -1,14 +1,11 @@
 package data
 
-open class Super {
-    open val rectangle: Int = -1
-    open fun show(){
-        println(rectangle)
-    }
-}
+open class Super(var name : String, var type : String) {
+   open fun helloWorld(name: String){
+       println("hello $name may name is ${this.name} ")
+   }
 
-class child: Super(){
-    override fun show() {
-        super.show()
-    }
+}
+class SuperDuper(name: String,type: String): Super(name,type){
+    var parentSuper = super.helloWorld("farhan")
 }
