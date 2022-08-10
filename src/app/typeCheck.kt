@@ -3,7 +3,6 @@ package app
 import data.Handphone
 import data.Laptop
 
-
 fun printObject(any: Any){
     if (any is Laptop){
         println("Laptop is ${any.merk}")
