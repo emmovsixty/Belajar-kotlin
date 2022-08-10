@@ -1,9 +1,11 @@
 package app
 
-import data.User
+import data.Guest
+import data.Member
 
 fun main() {
-    val user = User("farhan","farhan")
-    println(user.username)
-    println(user.password)
+    val user = Guest("farhan")
+    println(user)
+    val member = Member("pampam","nasjdb")
+    println(member)
 }
